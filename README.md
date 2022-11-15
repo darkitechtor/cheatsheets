@@ -13,19 +13,20 @@
 #### Scrapping
 |Файл|Описание|
 |-|-|
-|[html_file_scrapping.ipynb](html_file_scrapping.ipynb)|Пример скраппинга html-файла.|
-|[Slow_sites.ipynb](Slow_sites.ipynb)|Практическая работа по скраппингу сайтов клиентов для сбора данных об используемых на них счетчиках рекламных систем.|
-|[Web_scrapping.ipynb](Web_scrapping.ipynb)|Различные варианты парсеров.|
-|[web_scrapping_with_JS.ipynb](web_scrapping_with_JS.ipynb)|Парсинг с получением параметров css.|
+|[html_file_scrapping.ipynb](Python/Scrapping/html_file_scrapping.ipynb)|Пример скраппинга html-файла.|
+|[Slow_sites.ipynb](Python/Scrapping/Slow_sites.ipynb)|Практическая работа по скраппингу сайтов клиентов для сбора данных об используемых на них счетчиках рекламных систем.|
+|[Web_scrapping.ipynb](Python/Scrapping/Web_scrapping.ipynb)|Различные варианты парсеров.|
+|[web_scrapping_with_JS.ipynb](Python/Scrapping/web_scrapping_with_JS.ipynb)|Парсинг с получением параметров css.|
 
 ## Shell
 |Файл|Описание|
 |-|-|
-|[bash.md](bash.md)|Команды bash.|
-|[crontab.md](crontab.md)|Команды crontab.|
-|[csvkit.md](csvkit.md)|Команды csvkit (инструмент для работы с csv-файлами).|
-|[docker.md](docker.md)|Команды Docker.|
-|[GIT.md](GIT.md)|Команды GIT.|
-|[python_virtual_environment.md](python_virtual_environment.md)|Команды для управления виртуальной средой Python.|
-|[python.md](python.md)|команды для установки и обновления интерпретатора Python.|
-|[shell_commands.md](shell_commands.md)|Основные команды командной строки.|
+|[bash.md](Shell/bash.md)|Команды bash.|
+|[crontab.md](Shell/crontab.md)|Команды crontab.|
+|[csvkit.md](Shell/csvkit.md)|Команды csvkit (инструмент для работы с csv-файлами).|
+|[docker.md](Shell/docker.md)|Команды Docker.|
+|[GIT.md](Shell/GIT.md)|Команды GIT.|
+|[python_virtual_environment.md](Shell/python_virtual_environment.md)|Команды для управления виртуальной средой Python.|
+|[python.md](Shell/python.md)|команды для установки и обновления интерпретатора Python.|
+|[shell_commands.md](Shell/shell_commands.md)|Основные команды командной строки.|
+|[ubuntu_apt.md](Shell/ubuntu_apt.md)|Команды пакетного менеджера Ubuntu - apt.|
