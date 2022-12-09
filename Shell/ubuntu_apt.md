@@ -2,7 +2,8 @@
 |Задача|Команда|Пример|Комментарии|
 |-|-|-|-|
 |Установить пакет|`sudo apt-get install`|`sudo apt-get install ffmpeg`</br>`sudo apt-get install ffmpeg=7:4.2.7-0ubuntu0.1`|`ffmpeg=7:4.2.7-0ubuntu0.1` - установка пакета ffmpeg определенной версии|
-|Посмотреть доступные пакеты|`apt-cache pkgnames`|`apt-cache pkgnames | grep php`||
+|Посмотреть установленные пакеты|`apt list --installed`|||
+|Посмотреть доступные пакеты|`apt-cache pkgnames`|`apt-cache pkgnames \| grep php`||
 |Посмотреть информацию о пакете перед его установкой|`apt-cache search`|`apt-cache search vsftpd`|Собирает информацию обо всех пакетах, содержащих в названии искомое слово.</br>Для точного совпадения нужно использовать, например, такую конструкцию: `"^vsftpd$"`|
 |Посмотреть более подробную информацию о пакете перед его установкой|`apt-cache show`|`apt-cache show netcat`||
 |Посмотреть зависимости пакета перед его установкой|`apt-cache showpkg`|`apt-cache showpkg postgresql`||
